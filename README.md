@@ -1,4 +1,7 @@
-
+PyCity Schools Analysis
+Trend #1 
+Trend #2
+Trend #3
 
 ```python
 #Get Dependencies for working with csv
