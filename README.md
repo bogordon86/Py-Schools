@@ -1,7 +1,10 @@
-PyCity Schools Analysis
-Trend #1 
-Trend #2
-Trend #3
+#PyCity Schools Analysis
+
+#Trend #1 Overall, all schools performed better in reading (100%) rather than Math (92%)
+
+#Trend #2 The charter schools performed better at math and reading than the district schools
+
+#Trend #3 Performance did not correlate to amount spent per student, but to the size of the school and type.  The smaller schools, which were all charter schools, performed better.
 
 ```python
 #Get Dependencies for working with csv
