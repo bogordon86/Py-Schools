@@ -1,4 +1,4 @@
-#PyCity Schools Analysis
+**#PyCity Schools Analysis**
 
 #Trend #1 Overall, all schools performed better in reading (100%) rather than Math (92%)
 
@@ -6,6 +6,7 @@
 
 #Trend #3 Performance did not correlate to amount spent per student, but to the size of the school and type.  The smaller schools, which were all charter schools, performed better.
 
+**#District Summary**
 ```python
 #Get Dependencies for working with csv
 import os
@@ -156,7 +157,7 @@ District_Summary
 
 
 
-
+**#School Summary**
 ```python
 #Create a new pandas Dataframe from the students Dataframe
 school_summary_pd = schools_pd
@@ -509,7 +510,7 @@ school_summary2_pd                                                            # 
 </div>
 
 
-
+**#Top Performing Schools (By Passing Rate)**
 
 ```python
 #Use to check the data within each column 
@@ -621,7 +622,7 @@ top_5_schools.head(5)
 </div>
 
 
-
+**#Bottom Performing Schools (By Passing Rate)**
 
 ```python
 #Create Bottom 5 Schools Chart by Sorting Values
@@ -727,7 +728,7 @@ bottom_5_schools.tail(5)
 </div>
 
 
-
+**Math Scores by Grade**
 
 ```python
 #Grab Each grade from the Students Dataframe
@@ -899,7 +900,7 @@ mathbygradesorted
 </div>
 
 
-
+**Reading Scores by Grade**
 
 ```python
 #Calculate Average Reading Score across Grade
@@ -1062,7 +1063,7 @@ readbygradesorted
 </div>
 
 
-
+**Scores by School Spending**
 
 ```python
 #Create bins for the Schools by Spending Data Ranges to be held
@@ -1188,7 +1189,7 @@ spend_pd
 </div>
 
 
-
+**Scores by School Size**
 
 ```python
 #Create bins for Schools by Size ranges to be held
@@ -1296,7 +1297,7 @@ size_pd
 
 
 
-
+**Scores by School Type**
 ```python
 #Create bins for Schools by Type to be held
 
